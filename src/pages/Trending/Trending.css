@@ -1,0 +1,21 @@
+.trendingPage{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-size: 2vw;
+    padding: 4px;
+    border-radius: 50px;
+    color: white;
+}
+.trneding{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+@media(max-width:1000px){
+.trendingPage{
+    font-size: 6.4vw;
+}
+}
